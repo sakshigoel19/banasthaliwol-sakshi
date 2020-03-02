@@ -1,0 +1,232 @@
+body {
+	font-family:"Lucida Grande";
+	margin:0;
+}
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+li {
+	list-style:none;
+}
+header {
+  height: 83px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  /* Change the position property to fixed, and top property to 0 */
+  position:fixed;
+  
+  /* Change the z-index property to 10 */
+  top:0;
+  z-index:10;
+}	
+.logo{
+	
+	width:124px;
+	height:67px;
+	margin-top:0;
+	
+}
+.header-left{
+	float:left;
+}
+.header-right li{
+	
+    float:right;
+   
+	height:67px;
+padding-top:0;
+background-color:#808080;
+}
+.header-right a {
+	 line-height: 67px;
+     padding: 0 25px;
+     color: #ffffff;
+     display: block;
+}
+.header-right {
+	
+	height:67px;
+}
+ .top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(image2.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height:200px;
+}
+ .top-wrapper h1 {
+	 opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  color:#00ffff;
+  font-family:"Book Antiqua";
+ }
+ .top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+  color:#ffff66;
+  font-size:25px;
+  font-family: "Brush Script MT";
+}
+.btn-wrapper{
+	margin:20px 0;
+	border-color:green;
+	width:20px;
+}
+
+input{
+	width:400px;
+	height:35px;
+	font-size:18px;
+  border : 3px solid #4d0000;
+  margin-top:20px;
+  text-align:center;
+background-color:#e6e6e6s;
+  opacity:0.8;
+  font-family:"Berlin Sans FB";
+}
+.submit{
+	font-size:20px;
+	border:3px solid #000000;
+	width:200px;
+	height:100px;
+	margin-top:0 600px;
+	box-shadow:2px 2px #000000;
+	background-color:#e6e6e6;
+	padding:12px 14px;
+	opacity:0.8;
+	font-family:"Berlin Sans FB";
+	
+}
+.lesson-wrapper{
+	
+	height:450px;
+	background-color:#808080;
+	
+}
+.lesson-wrapper h3 {
+	
+	font-size:30px;
+	font-family:"Algerian";
+	color:#ffffff;
+	margin-top:0;
+	border-bottom:2px solid #ffffff;
+}
+.lesson-wrapper h2 {
+	font-family:"Bookman Old Style";
+	font-size:25px;
+	border-bottom:2px solid black;
+}
+.lesson-wrapper li {
+	padding:10px 40px;
+	list-style:circle;
+	font-family:"Century Gothic";
+	float:left;
+}
+.lesson-wrapper p {
+	font-size:20px;
+	font-family:"Berlin Sans FB";
+	margin-left:90px;
+	margin-top:28px;
+}
+.tutorial {
+	height:450px;
+	background-color:#999966;
+}
+.tutorial h1 {
+	text-align:center;
+	border-bottom:2px solid black;
+	font-family:"Times New Roman";
+}
+.tutorial h2 {
+	text-align:center;
+	font-family:"Bookman Old Style";
+}
+.tutorial p {
+	font-size:20px;
+	margin-top:5px;
+}
+.btutorial {
+	font-size:20px;
+	border:3px solid #000000;
+	width:200px;
+	height:100px;
+	margin:0 475px;
+	box-shadow:2px 2px #000000;
+	background-color:#e6e6e6;
+	padding:12px 24px;
+	opacity:0.8;
+	font-family:"Berlin Sans FB";
+}
+	legend{
+	    margin:0 200px;
+		text-align:center;
+		font-family:"Times New Roman";
+		font-size:50px;
+		border:5px;
+		
+	}
+	.form{
+		margin:200px 50px;
+		background-color:#808080;
+	}
+	.js{
+		margin:0 50px;
+	}
+		
+	.js h1 {
+		font-size:40px;
+		font-family:"Bauhaus 93";
+		border-bottom:2px solid #1a0000;
+		margin:20px 400px;
+		background-color:#ffbf80;
+		text-align:center;
+		
+	}
+    .js h3{
+		font-family:"Century Gothic";
+		font-size:25px;
+	}
+	.js p {
+		font-size:20px;
+		font-family:"Calibri";
+		color:#4d2600;
+	}
+	.js img {
+		height:100px;
+		width:300px;
+		float:right;
+		margin-top:0 ;
+	}
+	.js li {
+		font-size:20px;
+		font-family:"Calibri";
+	}
+	xmp{
+		font-size:18px;
+	}
+	footer p {
+  color: #b3aeb5;
+  font-size: 18px;
+}
+footer {
+  background-color:#808080;
+  height:80px;
+  padding:20px;
+  position:relative;
+}
+
+.footer-left img {
+	height:67px;
+	float:left;
+}
+.footer-right {
+	float:right;
+}
+.footer-right li {
+	padding-bottom:20px;
+}
